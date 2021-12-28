@@ -1,4 +1,29 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+*{
+  /* font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* background-color: red; */
+    /* color: white !important; */
+}
+
+.App{
+    color: white ;
+    background-color: red;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
